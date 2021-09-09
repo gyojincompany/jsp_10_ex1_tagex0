@@ -24,7 +24,11 @@
 		out.println("str = " + str + "<br/>");
 		out.println("sum = " + sum(10,20) + "<br/>");
 	
-	%>	
+	%>
+	
+	<%= i %><br/>
+	<%= str %>
+	<%= sum(1,10) %>	
 	
 
 </body>
